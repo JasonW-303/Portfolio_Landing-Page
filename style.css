@@ -98,6 +98,7 @@ nav {
     border-radius: 0px 3px 3px 0px;
     margin-top: 60px;
     flex: 1;
+    position: relative;
 }
 
 .hello {
@@ -135,9 +136,12 @@ nav {
 }
 
 .social {
-    align-self: flex-end;
-    margin-right: -130px;
-    margin-left: 130px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
     margin-bottom: 10px;
     gap: 5px;
 }
