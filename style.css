@@ -37,7 +37,7 @@
 .fade-in-container2 {
     opacity: 0; /* Set initial opacity to 0 */
     animation: fadeIn .5s ease-in forwards; /* Animation properties */
-    animation-delay: 2s; /* Delay before the animation starts */
+    animation-delay: 2.1s; /* Delay before the animation starts */
 }
 
 @keyframes fadeIn {
@@ -81,7 +81,7 @@ nav {
 /* Landing - Body */
 .color-left {
     height: 935px;
-    background-color: rgb(105, 137, 154);
+    background-color: rgb(118, 146, 159);
     border-radius: 3px 0px 0px 3px ;
     margin-top: 60px;
     flex: 1;
