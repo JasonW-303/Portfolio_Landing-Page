@@ -20,6 +20,11 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.logo-format {
+    height: 40px;
+}
+
 .fade-in-container {
     opacity: 0; /* Set initial opacity to 0 */
     animation: fadeIn 2.3s ease-in-out forwards; /* Animation properties */
@@ -128,6 +133,15 @@ nav {
     border-radius: 360px;
     box-shadow: 2.2px 2.2px 5px;
 }
+
+.social {
+    align-self: flex-end;
+    margin-right: -130px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
 
 /* About - Body */
 .about {
